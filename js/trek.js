@@ -32,3 +32,5 @@ function filterTreks() {
 
     });
 }
+searchInput.addEventListener("keyup", filterTreks);
+difficultyFilter.addEventListener("change", filterTreks);

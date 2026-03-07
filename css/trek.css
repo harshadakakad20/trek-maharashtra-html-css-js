@@ -181,3 +181,89 @@ display:flex;
   padding: 10px;
   width: 200px;
 }
+
+.trek-section{
+    padding:10px 0;
+    margin: 0;
+    text-align: center;
+}
+
+.section-title{
+    text-align:center;
+    font-size:28px;
+    margin :10px 0 20px 0;
+    color:#094438;
+}
+
+.trek-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 40px;
+}
+
+.trek-card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.trek-card:hover {
+  transform: translateY(-8px);
+}
+
+.trek-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-content h3 {
+  margin: 10px 0;
+}
+
+.card-content button {
+  background: #0d6efd;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.card-content button:hover {
+  background: #084298;
+}
+
+.price{
+    color:#2c7be5;
+    font-weight:bold;
+}
+
+.book-btn{
+    background:#2c7be5;
+    color:white;
+}
+
+.book-btn:hover{
+    background:#1a5fd1;
+}
+
+fav-btn{
+    background:#eeadad;
+    border:none;
+    padding:8px 15px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.fav-btn.active{
+    background:#f1cdd4;
+    color:white;
+}
