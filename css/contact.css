@@ -1,4 +1,23 @@
-body{
-    margin: opx;
-    padding: 0px;
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
 }
+
+body{
+background:#f1f8f4;
+}
+
+nav{
+background:#1b5e20;
+padding:15px 40px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+nav h2{
+color:white;
+}
+
