@@ -1,9 +1,12 @@
 
 function toggleMenu(){
-var menu = document.getElementById("navMenu");
-menu.classList.toggle("active");
-}
 
+let menu = document.getElementById("navMenu");
+let auth = document.querySelector(".auth-links-containar");
+
+menu.classList.toggle("active");
+auth.classList.toggle("active");
+}
 function addDefaultTreks() {
 
     let defaultTreks = [
