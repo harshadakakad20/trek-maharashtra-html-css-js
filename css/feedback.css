@@ -8,6 +8,7 @@
 
 body{
     background:#f7f5eb;
+    font-family:Arial, sans-serif;
 }
 
 
@@ -24,7 +25,7 @@ body{
 /* LEFT SIDE */
 .left{
     flex:1;
-    background:gray;
+    background: #0f4c5c;
     color:white;
     padding:40px;
 }
@@ -47,8 +48,9 @@ body{
     width:100%;
     padding:12px;
     margin:10px 0;
-    border:none;
+    border: none;
     border-radius:8px;
+    outline: none;
 }
 
 .left textarea{
@@ -62,7 +64,8 @@ body{
     gap:10px;
     margin:15px 0;
 }
-
+ 
+ 
 .star{
     font-size:24px;
     cursor:pointer;
@@ -80,7 +83,7 @@ body{
 
 /* BUTTON */
 .left button{
-    background:#094438;
+    background:#2e7d32;
     border:none;
     padding:12px;
     width:100%;
@@ -90,11 +93,21 @@ body{
     margin-top:15px;
 }
 
+.left button:hover{
+    background-color: #1b5e20;
+}
+
 /* RIGHT SIDE */
 .right{
     flex:1;
     background:#ffff;
     padding:40px;
+}
+
+.reviews{
+    color: #176d73;
+     margin-top: 2px;
+     padding-bottom: 15px;
 }
 
 /* CARD */
