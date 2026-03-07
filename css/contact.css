@@ -114,5 +114,20 @@ transition:0.3s;
 .submit-btn:hover{
 background:#1b5e20;
 }
+.info-section{
+width:45%;
+display:flex;
+flex-direction:column;
+gap:20px;
+}
 
+.card{
+background:white;
+padding:20px;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,0.15);
+transition:0.3s;
+cursor:pointer;
+text-align:center;
+}
 
