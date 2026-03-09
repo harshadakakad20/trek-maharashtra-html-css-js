@@ -99,6 +99,9 @@ body {
     color: #2e7d32;
     font-size: 32px;
 }
+.text-head{
+    color: #f0c76b;
+}
 
 .main-container {
     display: flex;
@@ -158,7 +161,7 @@ textarea {
 .submit-btn {
     width: 100%;
     padding: 12px;
-    background: #2e7d32;
+    background: #094438;;
     color: white;
     border: none;
     border-radius: 8px;
@@ -167,7 +170,7 @@ textarea {
 }
 
 .submit-btn:hover {
-    background: #1b5e20;
+    background: #094438;;
 }
 
 .info-section {
