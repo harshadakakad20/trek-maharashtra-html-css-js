@@ -228,40 +228,31 @@ display:flex;
   margin: 10px 0;
 }
 
-.card-content button {
-  background: #0d6efd;
-  color: white;
-  border: none;
-  padding: 8px 15px;
-  cursor: pointer;
-  border-radius: 5px;
-}
-
-.card-content button:hover {
-  background: #084298;
-}
-
 
 .book-btn{
     background:#31443b;
     color:white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .book-btn:hover{
-    background:#31443b;
+    background:#22312a;
 }
 
 .fav-btn{
     background:#31443b;
+    color: white;
     border:none;
-    padding:8px 15px;
+    padding:8px 14px;
     border-radius:5px;
     cursor:pointer;
 }
 
 .fav-btn.active{
-    background:#31443b;
-    color:white;
+    background:#22312a;
 }
 
 .popup{
@@ -297,12 +288,18 @@ font-size:18px;
 }
 
 .confirm-book{
-background:#2c7be5;
+background:#31443b;
 color:white;
 border:none;
 padding:10px 15px;
 border-radius:5px;
+cursor: pointer;
 }
+
+.confirm-book:hover{
+    background: #22312a;
+}
+
 
 .back-btn-container{
     text-align:center;
